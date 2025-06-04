@@ -1,7 +1,4 @@
-// Define the Spotify player iframe
 const iframe = document.getElementById("spotify-player");
-
-// Sample tracks URLs (replace these with actual track URLs)
 const tracks = [
   "https://open.spotify.com/embed/track/3n3Ppam7vgaVa1iaRUc9Lp",  // Example track 1
   "https://open.spotify.com/embed/track/6sGhpvvg6vK31bj0Ji6p2f?utm_source=generator",  // Example track 2
