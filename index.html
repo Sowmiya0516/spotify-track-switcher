@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Music Player</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="music-player">
+    <div class="player-header">
+      <h2>Spotify Music Player</h2>
+    </div>
+    <div class="player-body">
+      <div class="spotify-player">
+        <!-- Spotify Embed iframe -->
+        <iframe id="spotify-player" 
+                src="https://open.spotify.com/embed/track/3n3Ppam7vgaVa1iaRUc9Lp" 
+                width="300" 
+                height="380" 
+                frameborder="0" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                allowfullscreen
+                loading="lazy">
+        </iframe>
+      </div>
+      <div class="controls">
+        <button id="prev">Prev</button>
+        <button id="next">Next</button>
+      </div>
+    </div>
+    <div class="player-footer">
+      <p>Made with ❤ for You</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
