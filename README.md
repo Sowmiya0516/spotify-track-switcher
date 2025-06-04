@@ -17,7 +17,8 @@ spotify-track-switcher/
 └── README.md          # Project info
 
 🔧 How to Run :
-1. Clone the repository:  git clone https://github.com/Sowmiya0516/spotify-track-switcher.git                                                                       2. Open spotify.html in your browser.
+1. Clone the repository:  git clone https://github.com/Sowmiya0516/spotify-track-switcher.git
+2. Open spotify.html in your browser.
 3. Click Next or Previous to switch tracks.
 
 🛠 Technologies Used :
